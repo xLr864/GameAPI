@@ -7,4 +7,4 @@ Recommanded_Games = ["GTA 5","Red Dead Redemption 2","Assassins Creed Valhalla",
 async def root():
     choice = random.randint(0,len(Recommanded_Games))
     #Yaha change kara hai
-    return {"Try":Recommanded_Games[choice]}
+    return {"Ye khel lo bhai":Recommanded_Games[choice]}
