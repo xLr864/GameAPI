@@ -6,4 +6,5 @@ Recommanded_Games = ["GTA 5","Red Dead Redemption 2","Assassins Creed Valhalla",
 @app.get("/")
 async def root():
     choice = random.randint(0,len(Recommanded_Games))
-    return {"Ye try karo bhai":Recommanded_Games[choice]}
+    #Yaha change kara hai
+    return {"Try":Recommanded_Games[choice]}
