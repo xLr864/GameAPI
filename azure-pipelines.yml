@@ -14,7 +14,7 @@ variables:
   imageRepository: 'xlrgameapi'
   containerRegistry: 'containeregister.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: 'v2'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
